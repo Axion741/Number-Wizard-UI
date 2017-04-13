@@ -11,5 +11,6 @@ public class LevelManager : MonoBehaviour {
 
     public void QuitRequest() {
         Debug.Log("Quit Request logged");
+        Application.Quit();
     }
 }
